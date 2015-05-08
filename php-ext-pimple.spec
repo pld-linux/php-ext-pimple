@@ -5,7 +5,7 @@
 %define		php_name	php%{?php_suffix}
 %define		modname	pimple
 Summary:	A simple dependency injection container for PHP
-Name:		php-ext-%{modname}
+Name:		%{php_name}-ext-%{modname}
 Version:	3.0.0
 Release:	1
 License:	MIT
