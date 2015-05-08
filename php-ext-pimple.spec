@@ -54,7 +54,7 @@ grep %{modname} modules.log
 export NO_INTERACTION=1 REPORT_EXIT_STATUS=1 MALLOC_CHECK_=2
 %{__make} test \
 	PHP_EXECUTABLE=%{__php} \
-	PHP_TEST_SHARED_SYSTEM_EXTENSIONS="spl" \
+	PHP_TEST_SHARED_SYSTEM_EXTENSIONS="pcre spl"
 %endif
 
 %install
