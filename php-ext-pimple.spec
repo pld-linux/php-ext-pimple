@@ -6,12 +6,12 @@
 %define		modname	pimple
 Summary:	A simple dependency injection container for PHP
 Name:		%{php_name}-ext-%{modname}
-Version:	3.0.1
+Version:	3.0.2
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/silexphp/Pimple/archive/v%{version}/%{modname}-%{version}.tar.gz
-# Source0-md5:	4f76fba2322e2e94ba0678bdfda8e34a
+# Source0-md5:	a9b3be3c864b98eeb1f8b9acbac6c118
 URL:		http://pimple.sensiolabs.org/
 BuildRequires:	%{php_name}-devel
 BuildRequires:	rpmbuild(macros) >= 1.666
