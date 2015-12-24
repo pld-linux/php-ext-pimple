@@ -7,7 +7,7 @@
 Summary:	A simple dependency injection container for PHP
 Name:		%{php_name}-ext-%{modname}
 Version:	3.0.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/silexphp/Pimple/archive/v%{version}/%{modname}-%{version}.tar.gz
